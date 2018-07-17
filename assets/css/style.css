@@ -16,7 +16,7 @@
 10.	Pricing
 11.	Testimonial
 12. Client
-11.	Testemonial 
+11.	Testemonial
 14. Contact
 15. New-project
 16.	Footer
@@ -54,9 +54,9 @@ a,a:hover,a:active,a:focus {
 	font-size:14px;
 	padding:0;
 }
-h1,h2,h3,h4,h5,h6 { 
+h1,h2,h3,h4,h5,h6 {
 	margin: 0;
-	text-transform: capitalize;
+	/* text-transform: capitalize; */
 }
 p {
 	margin: 0;
@@ -70,7 +70,7 @@ ul{
 }
 ul li {
 	list-style: none;
-	
+
 }
 select,input,textarea{box-shadow:none;outline:0!important;}
 
@@ -81,11 +81,11 @@ html,body{
     z-index: 2;
 }
 [placeholder]:focus::-webkit-input-placeholder {
-  -webkit-transition: opacity 0.3s 0.3s ease; 
-  -moz-transition: opacity 0.3s 0.3s ease; 
-  -ms-transition: opacity 0.3s 0.3s ease; 
-  -o-transition: opacity 0.3s 0.3s ease; 
-  transition: opacity 0.3s 0.3s ease; 
+  -webkit-transition: opacity 0.3s 0.3s ease;
+  -moz-transition: opacity 0.3s 0.3s ease;
+  -ms-transition: opacity 0.3s 0.3s ease;
+  -o-transition: opacity 0.3s 0.3s ease;
+  transition: opacity 0.3s 0.3s ease;
   opacity: 0;
 }
 
@@ -114,12 +114,12 @@ html,body{
 	margin-right: 50px;
 	font-size:16px;
 	font-family: 'Josefin Sans', sans-serif;
-	-webkit-transition: .5s; 
-	-moz-transition:.5s; 
-	-ms-transition:.5s; 
+	-webkit-transition: .5s;
+	-moz-transition:.5s;
+	-ms-transition:.5s;
 	-o-transition:.5s;
     transition: .5s;
-	
+
 }
 .header-left li  i{
 	margin-right:7px;
@@ -133,7 +133,7 @@ html,body{
 .header-right {
 	color: #888;
 	font-family: 'Josefin Sans', sans-serif;
-	
+
 }
 .header-right li {
 	display:inline-block;
@@ -142,12 +142,12 @@ html,body{
 	font-size:16px;
 	font-family: 'Josefin Sans', sans-serif;
 	padding-bottom: 7px;
-	-webkit-transition: .5s; 
-	-moz-transition:.5s; 
-	-ms-transition:.5s; 
+	-webkit-transition: .5s;
+	-moz-transition:.5s;
+	-ms-transition:.5s;
 	-o-transition:.5s;
     transition: .5s;
-	
+
 }
 .header-right li a:hover{
 	color:#82b33e;
@@ -232,9 +232,9 @@ html,body{
 	font-family: 'Josefin Sans', sans-serif;
 	margin-top:18px;
 	padding-left: 27px;
-	-webkit-transition: .5s; 
-	-moz-transition:.5s; 
-	-ms-transition:.5s; 
+	-webkit-transition: .5s;
+	-moz-transition:.5s;
+	-ms-transition:.5s;
 	-o-transition:.5s;
     transition: .5s;
 }
@@ -321,7 +321,7 @@ html,body{
     width: 100%;
     height: 100vh;
 }
-   
+
 .camera_wrap.main-slider {
     float: none;
 }
@@ -345,7 +345,7 @@ html,body{
 }
 .camera_caption h1, .slider-title h1  {
     color: #fff;
-    font-size: 75px;
+    font-size: 60px;
     font-weight: 600;
     line-height: 110px;
 }
@@ -458,9 +458,9 @@ html,body{
 	font-weight:700;
 	font-family: 'Josefin Sans', sans-serif;
 	border-radius: 50%;
-	-webkit-transition:.5s; 
-	-moz-transition:.5s; 
-	-ms-transition:.5s; 
+	-webkit-transition:.5s;
+	-moz-transition:.5s;
+	-ms-transition:.5s;
 	-o-transition:.5s;
     transition: .5s;
 }
@@ -540,9 +540,9 @@ html,body{
 	overflow-x:hidden;
 	margin-top: 15px;
 	opacity:1;
-	-webkit-transition: .5s; 
-	-moz-transition:.5s; 
-	-ms-transition:.5s; 
+	-webkit-transition: .5s;
+	-moz-transition:.5s;
+	-ms-transition:.5s;
 	-o-transition:.5s;
     transition: .5s;
 }
@@ -560,9 +560,9 @@ html,body{
 .we-do-img {
     margin-right: 5px;
 	border-radius:50%;
-	-webkit-transition: .5s; 
-	-moz-transition:.5s; 
-	-ms-transition:.5s; 
+	-webkit-transition: .5s;
+	-moz-transition:.5s;
+	-ms-transition:.5s;
 	-o-transition:.5s;
     transition: .5s;
 }
@@ -613,13 +613,13 @@ html,body{
 	margin-top: 103px;
 }
 .about-us h2 {
-	color:#4d4e54;	
+	color:#4d4e54;
 	font-size:30px;
 	font-family: 'Josefin Sans', serif;
 	font-weight: 700;
 }
 .about-us p{
-	color:#888;	
+	color:#888;
 	font-size:16px;
 	font-family: 'Josefin Sans', sans-serif;
 	line-height: 1.7;
@@ -666,20 +666,20 @@ html,body{
 	max-width: 304px;
     margin: 0 auto;
    	margin-bottom: 15px;
-	-webkit-transition: .5s; 
-	-moz-transition:.5s; 
-	-ms-transition:.5s; 
+	-webkit-transition: .5s;
+	-moz-transition:.5s;
+	-ms-transition:.5s;
 	-o-transition:.5s;
     transition: .5s;
 }
 .service-txt h2 a{
-	color:#44454f;	
+	color:#44454f;
 	font-size:24px;
 	font-family: 'Josefin Sans', serif;
 	padding: 47px 0 25px;
 }
 .service-txt p {
-	color:#756c6a;	
+	color:#756c6a;
 	font-size:16px;
 	font-family: 'Josefin Sans', sans-serif;
 	line-height: 1.67;
@@ -751,7 +751,7 @@ a:focus.service-btn{
 	padding: 117px 0 109px;
 }
 .project-details{
-	
+
 }
 .project-content {
     margin-top:62px;
@@ -822,7 +822,7 @@ a:focus.service-btn{
     transition: .7s;
 }
 .isotope-overlay h3 a,.isotope-overlay  a{
-	color:#fff;	
+	color:#fff;
 	font-size:24px;
 	font-family: 'Josefin Sans', sans-serif;
 }
@@ -830,7 +830,7 @@ a:focus.service-btn{
 	margin-top: 20px;
 }
 .isotope-overlay p{
-	color:#fff;	
+	color:#fff;
 	font-size:14px;
 	font-family: 'Josefin Sans', sans-serif;
 	margin-top: 15px;
@@ -1002,7 +1002,7 @@ a:active.learn-btn{
 	box-shadow: 0px 5px 35px 5px rgba(6,5,49,.2);
 }
 /*-------------------------------------
-		10.	Pricing 
+		10.	Pricing
 --------------------------------------*/
 .pricing{
 	padding:115px 0 78px;
@@ -1105,7 +1105,7 @@ a:active.learn-btn{
 }
 
 /*-------------------------------------
-		11.	Testemonial 
+		11.	Testemonial
 --------------------------------------*/
 
 .testemonial{
@@ -1136,7 +1136,7 @@ a:active.learn-btn{
     margin: 5px 3px;
     border-radius:50%;
     background: transparent;
-    border: 2px solid #dfdeff;	
+    border: 2px solid #dfdeff;
 }
 .testemonial .owl-theme .owl-dots .owl-dot.active span{
     background: #82b33e;
@@ -1214,7 +1214,7 @@ color: #888;
 /*single-news-box*/
 .single-news-box{
 	box-shadow:0 5px 30px 0px rgba(115,112,215,.2);
-	
+
 	margin-bottom: 13px;
 	-webkit-transition: .5s;
     -moz-transition: .5s;
@@ -1231,7 +1231,7 @@ color: #888;
 .news-box-bg {
 	position: relative;
 	overflow: hidden;
-	
+
 }
 .single-news-box:hover .isotope-overlay{
 	-webkit-transform:scaleY(1);
@@ -1293,7 +1293,7 @@ a:active.learn-btn{
 }
 .single-news-box:hover .news-box-inner {
 	background: #f1f1f1;
-	
+
 }/*team-box-inner*/
 
 
@@ -1340,11 +1340,11 @@ a:active.learn-btn{
 .contact-form {
 	position: relative;
 	margin: 50px 0 0 0;
-	
+
 }
 .contact-form  .form-group {
     margin-bottom: 15px;
-	
+
 }
 .contact-form .form-control {
 	padding: 24px 21px;
@@ -1374,9 +1374,9 @@ a:active.learn-btn{
 	text-transform:uppercase;
 	font-family: 'Josefin Sans', sans-serif;
 	margin-top: 3px;
-	-webkit-transition: .5s; 
-	-moz-transition:.5s; 
-	-ms-transition:.5s; 
+	-webkit-transition: .5s;
+	-moz-transition:.5s;
+	-ms-transition:.5s;
 	-o-transition:.5s;
     transition: .5s;
 }
@@ -1389,12 +1389,12 @@ a:active.learn-btn{
     letter-spacing: 2.5px;
     border-radius: 0px;
     font-size:14px;
-	-webkit-transition: .5s; 
-	-moz-transition:.5s; 
-	-ms-transition:.5s; 
+	-webkit-transition: .5s;
+	-moz-transition:.5s;
+	-ms-transition:.5s;
 	-o-transition:.5s;
     transition: .5s;
-	
+
 }
 
 .single-contact-btn:hover button.contact-btn {
@@ -1461,9 +1461,9 @@ a:active.learn-btn{
 	color: #fff;
 	margin-right:13px;
 	padding: 0px 12px 0px 0px;
-	-webkit-transition: .3s; 
-	-moz-transition:.3s; 
-	-ms-transition:.3s; 
+	-webkit-transition: .3s;
+	-moz-transition:.3s;
+	-ms-transition:.3s;
 	-o-transition:.3s;
     transition: .3s;
 
@@ -1498,9 +1498,9 @@ a:active.learn-btn{
 	text-transform: uppercase;
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 700;
-	-webkit-transition:.5s; 
-	-moz-transition:.5s; 
-	-ms-transition:.5s; 
+	-webkit-transition:.5s;
+	-moz-transition:.5s;
+	-ms-transition:.5s;
 	-o-transition:.5s;
     transition: .5s;
 }
@@ -1580,7 +1580,7 @@ a:active.learn-btn{
 	color:#aaa;
 	padding-bottom: 20px;
 	text-transform:capitalize;
-	
+
 
 	-webkit-transition:all 0.2s linear;
 	-moz-transition:all 0.2s linear;
@@ -1708,7 +1708,7 @@ a:active.learn-btn{
 .foot-menu   li a,
 .foot-menu   li a:hover,
 .foot-menu   li a:focus{
-	
+
 }
 .foot-menu  li {
 	position:relative;
@@ -1747,7 +1747,7 @@ a:active.learn-btn{
 	font-family: 'Josefin Sans', serif;
 	margin-bottom: 3px;
 	left: 15px;
-	
+
 }
 .about-part-content {
     position: relative;
@@ -1843,7 +1843,7 @@ a:active.learn-btn{
 	-ms-transform:translate(10px);
 	-o-transform:translate(10px);
 	transform:translate(10px);
-	
+
 }
 .blog-categories-list ul li a i{
 	padding-right: 10px;
@@ -1857,7 +1857,7 @@ a:active.learn-btn{
     display: -webkit-box;
     max-width: 240px;
     padding:0px 0 25px;
-    
+
 }
 .bl-img a img{
 	width: 80px;
@@ -1913,7 +1913,7 @@ a:active.learn-btn{
     transition: .5s;
 }
 
-.blogs-widget .btn:hover{	
+.blogs-widget .btn:hover{
 	color:#82b33e;
 	border:1px solid #82b33e;
 }
@@ -1924,13 +1924,13 @@ a:active.learn-btn{
     text-align: center;
 }
 
-.pagination-part .pagination>.active>a, 
+.pagination-part .pagination>.active>a,
 .pagination-part .pagination>.active>a:focus,
 .pagination-part .pagination>.active>a:hover,
 .pagination-part .pagination>.active>span,
 .pagination-part .pagination>.active>span:focus,
 .pagination-part .pagination>.active>span:hover {
-    
+
     color: #fff;
     cursor: pointer;
     background-color:#82b33e;
@@ -2067,7 +2067,7 @@ a:active.learn-btn{
     font-size: 16px;
     font-family: 'Josefin Sans', sans-serif;
 }
-.bl-single-tag p span a{ 
+.bl-single-tag p span a{
 	color: #636363;
 	text-transform: capitalize;
 }/*.bl-list-icon */
@@ -2117,7 +2117,7 @@ a:active.learn-btn{
 	display: -webkit-box;
 	padding-bottom:43px;
 	margin-bottom: 38px;
-	
+
 }
 .xtra-comment-body{
 	border-bottom: 1px solid #dfdfdf;
@@ -2179,9 +2179,9 @@ a:active.learn-btn{
     background:#82b33e;
 	border:1px solid #82b33e;
 	border-radius:5px;
-	-webkit-transition: .5s; 
-	-moz-transition:.5s; 
-	-ms-transition:.5s; 
+	-webkit-transition: .5s;
+	-moz-transition:.5s;
+	-ms-transition:.5s;
 	-o-transition:.5s;
     transition: .5s;
 	z-index: 2;
@@ -2193,4 +2193,13 @@ a:active.learn-btn{
 	border-radius:50%;
 }
 
-/*========================Thank you=================
+/*========================Thank you=================*/
+
+.col-container {
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+}
+
+.col {
+    display: table-cell; /* Make elements inside the container behave like table cells */
+}
