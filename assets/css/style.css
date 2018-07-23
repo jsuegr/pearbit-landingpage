@@ -1327,7 +1327,7 @@ a:active.learn-btn{
 	color: #fff;
 	font-size: 24px;
 	font-family: 'Josefin Sans', sans-serif;
-	text-transform:capitalize;
+	/* text-transform:capitalize; */
 	margin-bottom:40px;
 }
 /*contact-head */
@@ -1423,7 +1423,7 @@ a:active.learn-btn{
 	color: #fff;
 	font-size: 24px;
 	font-family: 'Josefin Sans', sans-serif;
-	text-transform:capitalize;
+	/* text-transform:capitalize; */
 }
 .contact-office-address p{
 	color: #fff;
